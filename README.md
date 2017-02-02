@@ -22,6 +22,15 @@ If you want the script to permanently be available in illustrator , copy the fol
 
 DRIVE:\%Program Files%\Adobe\Adobe Illustrator%VER%\Presets\en_US\Scripts
 
+*Note*: If you will place a script in the Adobe Illustrator Scripts folder while Illustrator is running, you must restart Illustrator for the script to appear in the Scripts submenu.
+
+See also here :
+
+https://helpx.adobe.com/illustrator/using/automation-scripts.html
+
+
+
+
 ## Interface 
 
 Pretty straight forward , here it is :
@@ -33,24 +42,24 @@ Pretty straight forward , here it is :
 
 You can use this script in 3 ways :
 
-- Direct typing of a text .
-- Paste a text from clipboard 
-- select a textframe ( before launchiing the script ) and get that selection.
+1. Direct typing of a text .
+2. Paste a text from clipboard 
+3. Select a textframe ( before launching the script ) and get that selection.
 
-Either way - after you have the text in the box, you have to click "Go" in order for the flipping to occur .
+Either way - after you have the text in the box, you have to click *"Go"* in order for the flipping to occur .
 
 Now , again, you have a choice , either :
 
-1 - copy the flipped text back to artboard , or ..
-2 - if you have used method [3] from above ( meaning you have selecteed a textframe ) - you can click "put back to selection".
-3 - [ todo / unsupported ] - click "Create text" to create a frame with the flipped text .
+1. Copy the flipped text back to artboard , or ..
+2. If you have used method `[3]` from above ( meaning you have selected a textframe ) - you can click "put back to selection".
+3. [ Todo / unsupported ] - click "Create text" to create a frame with the flipped text .
 
 ## ToDo
 
  * Flip multiple textframes at once .
- * Create a textframe ( from direct typing ) 
+ * Create a textframe ( From direct typing ) 
  * Clean some small bugs .
- * support Arabic ( with file creation )
+ * Better Support Arabic ( with Auto-file creation from template )
  
 ## License
 
