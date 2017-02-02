@@ -33,9 +33,9 @@ Pretty straight forward , here it is :
 
 You can use this script in 3 ways :
 
-1 - Direct typing of a text .
-2 - Paste a text from clipboard 
-3 - select a textframe ( before launchiing the script ) and get that selection.
+- Direct typing of a text .
+- Paste a text from clipboard 
+- select a textframe ( before launchiing the script ) and get that selection.
 
 Either way - after you have the text in the box, you have to click "Go" in order for the flipping to occur .
 
@@ -51,6 +51,19 @@ Now , again, you have a choice , either :
  * Create a textframe ( from direct typing ) 
  * Clean some small bugs .
  * support Arabic ( with file creation )
+ 
 ## License
 
-A short snippet describing the license (MIT, Apache, etc.)
+   Copyright 2015-2017 k9t9 (hk)
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
