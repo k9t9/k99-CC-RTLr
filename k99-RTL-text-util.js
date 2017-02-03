@@ -1,10 +1,11 @@
-﻿// alert('script is working ');
-// var x = browserAvailable;
-// alert(x);
-// var myDoc = app.activeDocument;
-// alert("There are " + myDoc.textFrames.length + " text frames.");
-// alert("There are " + myDoc.stories.length + " stories.");
-//$.colorPicker();
+﻿/**
+* Author : k99 ( k9t9 ) HK
+* Author URI: http://www.krembo99.com
+* 
+* Description: Geolocation support for posts.
+* @package    MyProject
+* @license    http://opensource.org/licenses/gpl-license.php  GNU Public License
+*/
 
 /*
 * Interface
@@ -13,8 +14,7 @@
 var box = new Window('dialog', "K99 RTL Text utilities");  
   
 box.panel = box.add('panel', undefined, "Flipping Text"); 
-box.panel_instruct = box.panel.add('statictext', undefined, "1. Paste your text here, or ..\n2. type directly or..  \n3. use your artboard selection",{multiline:true});  
-// box.panel_text1 = box.panel.add('edittext', [100,100,300,300], "Please paste your text here");  
+box.panel_instruct = box.panel.add('statictext', undefined, "1. Paste your text here, or ..\n2. type directly or..  \n3. use your artboard selection",{multiline:true}); 
 box.panel_text1 = box.panel.add('edittext {preferredSize:[300,200],properties:{multiline:true}}',undefined,'here');  
 box.panel.selectionBtn = box.panel.add('button',undefined, "Get my selection", {name:'Selection'});  
 box.panel.putBackBtn = box.panel.add('button',undefined, "Put back to selection", {name:'Put Back'});  
@@ -26,9 +26,7 @@ box.panel2.group = box.panel2.add('group', undefined );
 box.panel2.group.orientation='column';  
 box.panel2.group.alignChildren='left'; 
 
-box.panel2.group.text1 = box.panel2.group.add('statictext', undefined, "Press Button to flip");  
-// box.panel2.group.closeBtn = box.panel2.group.add('button',undefined, "Close", {name:'close'});  
-// box.panel2.group.ignoreNumbers =  box.panel2.group.add('checkbox', undefined, 'Ignore Numbers?',{name:'cb1'}).helpTip=" Note: This will ignore numbers.";
+box.panel2.group.text1 = box.panel2.group.add('statictext', undefined, "Press Button to flip");
 box.panel2.group.ignoreNumbersFlip =  box.panel2.group.add('checkbox', undefined, 'Ignore Numbers?',{name:'cb1'});
 box.panel2.group.ignoreNumbersFlip.helpTip=" Note: This will ignore numbers.";
 box.panel2.group.flipWords =  box.panel2.group.add('checkbox', undefined, 'Flip Word order ( not letters )').helpTip=" Note: This will ignore numbers.";
@@ -66,13 +64,10 @@ box.panel.selectionBtn.onClick = function(){
 box.panel.putBackBtn.onClick = function(){  
 alert('start');
 
-   // if textframes exist in the document
- 
 	var docm = app.activeDocument.selection[0];
-	// var text1 = doc.textFrames.pointText( [20,height-50] );
 	var flipped = box.panel_text1.text;
 	if (flipped === "" ) return alert("The text box is empty");
-	// docm.contents = "Handgloves";
+
 	docm.contents = flipped;
 	alert('text was put in the box, now close script to refresh');
 	// Need redraw or close the script 
@@ -163,17 +158,3 @@ else
 
 
 box.show() ;
-
-// $.writeln(app.activeDocument); 
-
-
-// function OKButtonClicked(){
-// alert("click");$.colorPicker();
-// $.writeln(app.activeDocument); 
-// var doc = app.activeDocument;
-// var textRefs = doc.textFrames;
-// var sel  = doc.selection;
-// $.writeln(app.activeDocument); 
-// alert(sel);
-// alert('script is working ');
-// }
