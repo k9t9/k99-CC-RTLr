@@ -57,7 +57,7 @@ Now , again, you have a choice , either :
 ## ToDo
 
  * Make a Panel instead of Dialog .
- * migrate to Common Extensibility Platform (CEP)
+ * Migrate to Common Extensibility Platform (CEP)
  * Flip multiple textframes at once .
  * Create a textframe ( From direct typing ) 
  * Clean some small bugs .
