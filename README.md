@@ -6,17 +6,19 @@ A small scripted utility to help with RTL text in Illustrator.
 
 Why ??
 
-Because after so many years , illustrator still does not support RTL languages . Seriously adobe ..
+Because after so many years , illustrator still does not support RTL languages . 
+
+Seriously adobe ..
 All it takes to flip a text is ONE LINE of code ...
 
 So now, everyone who uses adobe products need to flip their text, usually using some external utility , or an online service .
 I got tired of it , so I scripted this small utility .
 
-Seriously, adobe ...
+Seriously, adobe ... ( Again )
 
 ## Installation
 
-You can launch directly from File -> Scripts -> Other scripts ... ( or CTRL+F12 )
+You can launch directly from File -> Scripts -> Other scripts ... ( or `CTRL+F12` )
 
 If you want the script to permanently be available in illustrator , copy the folder to :
 
